@@ -1,8 +1,7 @@
-html {
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
+@font-face {
+  font-family: AvantGardeDemi;
+  src: url('../Fonts/AvantGardeDemi.otf');
 }
-
 
 h1 {
   font-size: 60px;
@@ -15,27 +14,38 @@ p, li {
   letter-spacing: 1px;
 }
 
-
 html {
-  background-color: #00539F;
+  background-color: #FFFFFF;
 }
 
 body {
-  width: 1200px;
   margin: 0 auto;
-  background-color: #FF9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
-}
-
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #00539F;
-  text-shadow: 3px 3px 1px black;
+  background-color: #FFFFFF;
+  padding: 0 0px 0px 0px;
 }
 
 img {
   display: block;
   margin: 0 auto;
+}
+
+.TopRightNavBar {
+  font-family: AvantGardeDemi;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+.TopRightNavBar a:hover {
+  background-color: #FFFFFF;
+  color: #2F80ED;
+}
+
+.TopRightNavBar a {
+  font-family: AvantGardeDemi;
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 16px;
 }
