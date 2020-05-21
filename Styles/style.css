@@ -13,9 +13,10 @@ body {
   padding: 0 0px 0px 0px;
 }
 
+
 img {
-  display: block;
-  margin: 0 auto;
+  position: relative;
+  top: 10px;
 }
 
 .TopLeftNavBar {
@@ -32,7 +33,7 @@ img {
 
 .TopLeftNavBar a:hover {
   background-color: #002641;
-  color: #2F80ED;
+  color: #9CC6FF;
 }
 
 .TopLeftNavBar a {
@@ -40,7 +41,7 @@ img {
   float: left;
   color: #FFFFFF;
   text-align: center;
-  padding: 16px 40px;
+  padding: 16px 64px;
   font-size: 14px;
   text-decoration: none;
 }
@@ -53,7 +54,7 @@ img {
 
 .TopRightNavBar a:hover {
   background-color: #002641;
-  color: #2F80ED;
+  color: #9CC6FF;
 }
 
 .TopRightNavBar a {
@@ -61,7 +62,7 @@ img {
   float: left;
   color: #FFFFFF;
   text-align: center;
-  padding: 16px 40px;
+  padding: 16px 64px;
   font-size: 14px;
   text-decoration: none;
 }
