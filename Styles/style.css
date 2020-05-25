@@ -3,6 +3,16 @@
   src: url('../Fonts/AvantGardeDemi.otf');
 }
 
+@keyframes introSequence {
+  from {padding: 60px;}
+  to {padding: 0px;}
+}
+
+@keyframes buttonFade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 html {
   background-color: #002641;
 }
@@ -12,13 +22,6 @@ body {
   background-color: #002641;
   padding: 0 0px 0px 0px;
 }
-
-/*
-img {
-  position: relative;
-  top: 10px;
-}
-*/
 
 .TopLeftNavBar {
   font-family: AvantGardeDemi;
@@ -45,6 +48,8 @@ img {
   padding: 16px 64px;
   font-size: 14px;
   text-decoration: none;
+  animation-name: buttonFade;
+  animation-duration: 1s;
 }
 
 .TopRightNavBar {
@@ -66,9 +71,17 @@ img {
   padding: 16px 64px;
   font-size: 14px;
   text-decoration: none;
+  animation-name: buttonFade;
+  animation-duration: 1s;
 }
 
 .OverallTopBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.OverallTopBar img {
+  padding: 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -77,7 +90,8 @@ img {
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
+  animation-name: introSequence;
+  animation-duration: 2s;
   transform: translate(-40%, -50%);
 }
 
