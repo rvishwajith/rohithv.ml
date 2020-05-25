@@ -4,8 +4,18 @@
 }
 
 @keyframes introSequence {
-  from {padding: 60px;}
-  to {padding: 0px;}
+  from {
+    padding: 50px;
+    width: 30%;
+    height: 30%;
+    opacity: 0.6;
+  }
+  to {
+    padding: 0px;
+    width: 40%;
+    height: 40%;
+    opacity: 1.0;
+  }
 }
 
 @keyframes buttonFade {
@@ -49,7 +59,7 @@ body {
   font-size: 14px;
   text-decoration: none;
   animation-name: buttonFade;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 
 .TopRightNavBar {
@@ -86,17 +96,13 @@ body {
   justify-content: space-between;
 }
 
-.MainCenterImage {
-  position: fixed;
-  top: 50%;
-  left: 50%;
+.MainCenterImage img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   animation-name: introSequence;
   animation-duration: 2s;
-  transform: translate(-40%, -50%);
-}
-
-.MainCenterImage img {
-  width: 80%;
-  height: 80%;
+  width: 40%;
+  height: 40%;
 }
 
