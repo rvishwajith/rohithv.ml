@@ -6,14 +6,14 @@
 @keyframes introSequence {
   from {
     padding: 50px;
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     opacity: 0.6;
   }
   to {
     padding: 0px;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     opacity: 1.0;
   }
 }
@@ -102,7 +102,7 @@ body {
   margin-right: auto;
   animation-name: introSequence;
   animation-duration: 2s;
-  width: 40%;
-  height: 40%;
+  width: 50%;
+  height: 50%;
 }
 
