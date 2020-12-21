@@ -34,7 +34,6 @@ body {
 
 .TopLeftNavBar {
   font-family: AvantGardeDemi;
-  background-color: #002641;
   overflow: hidden;
 }
 
@@ -45,7 +44,6 @@ body {
 }
 
 .TopLeftNavBar a:hover {
-  background-color: #002641;
   color: #9CC6FF;
 }
 
@@ -63,12 +61,10 @@ body {
 
 .TopRightNavBar {
   font-family: AvantGardeDemi;
-  background-color: #002641;
   overflow: hidden;
 }
 
 .TopRightNavBar a:hover {
-  background-color: #002641;
   color: #9CC6FF;
 }
 
